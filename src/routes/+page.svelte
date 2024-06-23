@@ -1,4 +1,5 @@
 <script>
+    import "../../static/imgs/azure.png";
     function toggleMobileMenu() {
         document.getElementById("menu").classList.toggle("active");
     }
@@ -88,11 +89,7 @@
             </div>
         </div>
         <div class="hero-yellow">
-            <img
-                src="../lib/img/hero-image.img"
-                alt="Adrian Twarog"
-                width="100%"
-            />
+            <img src="./imgs/hero-image.png" alt="Adrian Twarog" width="100%" />
         </div>
     </section>
     <section class="logos container">
@@ -171,13 +168,13 @@
         <div class="jobs">
             <article>
                 <figure>
+                    <figcaption>Workplace - 1 YouTube Creator</figcaption>
                     <div>
                         <img
                             src="./imgs/workplace-1.jpg"
                             alt="Workplace 1 - YouTube Creator"
                             width="100%"
                         />
-                        <figcaption>Workplace - 1 YouTube Creator</figcaption>
                     </div>
                 </figure>
                 <h3>YouTube Content Creator</h3>
@@ -189,15 +186,13 @@
             </article>
             <article>
                 <figure>
+                    <figcaption>Workplace - Moshi Moshi Marketing</figcaption>
                     <div>
                         <img
                             src="./imgs/workplace-2.jpg"
                             alt="Workplace 2 - Moshi Moshi Marketing"
                             width="100%"
                         />
-                        <figcaption>
-                            Workplace - Moshi Moshi Marketing
-                        </figcaption>
                     </div>
                 </figure>
                 <h3>Moshi Moshi Marketing</h3>
@@ -209,13 +204,13 @@
             </article>
             <article>
                 <figure>
+                    <figcaption>Workplace - Chamber of Commerce</figcaption>
                     <div>
                         <img
                             src="./imgs/workplace-3.jpg"
                             alt="Workplace 3 - Chamber of Commerce"
                             width="100%"
                         />
-                        <figcaption>Workplace - Chamber of Commerce</figcaption>
                     </div>
                 </figure>
                 <h3>Chamber of Commerce</h3>
@@ -233,29 +228,27 @@
             Completed Projects
         </h2>
         <div class="bento-grid">
-            <a href="#" class="bento-item">
+            <a href="/" class="bento-item">
                 <img src="./imgs/bento-1.jpg" alt="BGCCI" width="100%" />
             </a>
-            <a href="#" class="bento-item">
+            <a href="/" class="bento-item">
                 <img src="./imgs/bento-2.jpg" alt="Churhview" width="100%" />
             </a>
-            <a href="#" class="bento-item">
+            <a href="/" class="bento-item">
                 <img src="./imgs/bento-3.jpg" alt="Harley" width="100%" />
             </a>
-            <a href="#" class="bento-item">
+            <a href="/" class="bento-item">
                 <img src="./imgs/bento-5.jpg" alt="Bunbury" width="100%" />
             </a>
-            <a href="#" class="bento-item">
+            <a href="/" class="bento-item">
                 <img src="./imgs/bento-6.jpg" alt="Running" width="100%" />
             </a>
-            <a href="#" class="bento-item">
+            <a href="/" class="bento-item">
                 <img src="./imgs/bento-7.jpg" alt="School" width="100%" />
             </a>
         </div>
     </section>
 </main>
-
-/*
 
 <style lang="postcss">
     *,
@@ -673,52 +666,53 @@
             height: 240px;
         }
     }
-    /* &:nth-child(1) {
-                grid-column: span 2;
-                grid-row: span 2;
-                @media (max-width: 1024px) {
-                    grid-column: span 2;
-                    grid-row: span 2;
-                }
-            }
-            &:nth-child(2) {
-                grid-column: span 2;
-                grid-row: span 1;
-                @media (max-width: 1024px) {
-                    grid-column: span 3;
-                    grid-row: span 2;
-                }
-            }
-            &:nth-child(3) {
-                grid-column: span 1;
-                grid-row: span 1;
-                @media (max-width: 1024px) {
-                    grid-column: span 3;
-                    grid-row: span 2;
-                }
-            }
-            &:nth-child(4) {
-                grid-column: span 1;
-                grid-row: span 1;
-                @media (max-width: 1024px) {
-                    grid-column: span 2;
-                    grid-row: span 4;
-                }
-            }
-            &:nth-child(5) {
-                grid-column: span 2;
-                grid-row: span 1;
-                @media (max-width: 1024px) {
-                    grid-column: span 3;
-                    grid-row: span 2;
-                }
-            }
-            &:nth-child(6) {
-                grid-column: span 5;
-                grid-row: span 3;
-                @media (max-width: 1024px) {
-                    grid-column: span 5;
-                    grid-row: span 2;
-                }
-            } */
+    .bento-item:nth-child(1) {
+        grid-column: span 2;
+        grid-row: span 2;
+        @media (max-width: 1024px) {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+    }
+    .bento-item:nth-child(2) {
+        grid-column: span 2;
+        grid-row: span 1;
+        @media (max-width: 1024px) {
+            grid-column: span 3;
+            grid-row: span 2;
+        }
+    }
+    .bento-item:nth-child(3) {
+        grid-column: span 1;
+        grid-row: span 1;
+        @media (max-width: 1024px) {
+            grid-column: span 3;
+            grid-row: span 2;
+        }
+    }
+
+    .bento-item:nth-child(4) {
+        grid-column: span 1;
+        grid-row: span 1;
+        @media (max-width: 1024px) {
+            grid-column: span 2;
+            grid-row: span 4;
+        }
+    }
+    .bento-item:nth-child(5) {
+        grid-column: span 2;
+        grid-row: span 1;
+        @media (max-width: 1024px) {
+            grid-column: span 3;
+            grid-row: span 2;
+        }
+    }
+    .bento-item:nth-child(6) {
+        grid-column: span 5;
+        grid-row: span 3;
+        @media (max-width: 1024px) {
+            grid-column: span 5;
+            grid-row: span 2;
+        }
+    }
 </style>
