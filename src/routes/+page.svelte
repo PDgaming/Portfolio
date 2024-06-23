@@ -7,6 +7,11 @@
     import pythonImg from "../lib/imgs/python.png";
     import vscodeImg from "../lib/imgs/vscode.png";
     import logo from "../lib/imgs/logo.png";
+    import bootstrapImg from "../lib/imgs/bootstrap.png";
+    import firebaseImg from "../lib/imgs/firebase.png";
+    import nodeImg from "../lib/imgs/node.png";
+    import supabaseImg from "../lib/imgs/supabase.png";
+    import svelteImg from "../lib/imgs/svelte.png";
     import resume from "./Resume.pdf";
 </script>
 
@@ -78,16 +83,22 @@
                 <img src={javascriptImg} alt="JS" width="128" />
                 <img src={vscodeImg} width="128" alt="VS Code" />
                 <img src={pythonImg} width="128" alt="Python" />
+                <img src={bootstrapImg} width="128" alt="Bootstrap" />
+                <img src={firebaseImg} width="128" alt="Firebase" />
+                <img src={nodeImg} width="128" alt="Node" />
+                <img src={supabaseImg} width="128" alt="Supabase" />
+                <img src={svelteImg} width="128" height="128" alt="Svelte" />
+
                 <img src={htmlImg} alt="HTML" width="128" />
                 <img src={cssImg} alt="CSS" width="128" />
                 <img src={javascriptImg} alt="JS" width="128" />
                 <img src={vscodeImg} width="128" alt="VS Code" />
                 <img src={pythonImg} width="128" alt="Python" />
-                <img src={htmlImg} alt="HTML" width="128" />
-                <img src={cssImg} alt="CSS" width="128" />
-                <img src={javascriptImg} alt="JS" width="128" />
-                <img src={vscodeImg} width="128" alt="VS Code" />
-                <img src={pythonImg} width="128" alt="Python" />
+                <img src={bootstrapImg} width="128" alt="Bootstrap" />
+                <img src={firebaseImg} width="128" alt="Firebase" />
+                <img src={nodeImg} width="128" alt="Node" />
+                <img src={supabaseImg} width="128" alt="Supabase" />
+                <img src={svelteImg} width="128" height="128" alt="Svelte" />
             </div>
         </div>
     </section>
