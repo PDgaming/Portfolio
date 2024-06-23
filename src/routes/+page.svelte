@@ -115,10 +115,15 @@
                     <li>CSS</li>
                     <li>JavaScript</li>
                     <li>Svelte</li>
+                    <li>Svelte Kit</li>
+                    <li>Bootstrap</li>
+                    <li>Responsive Design</li>
                 </ul>
                 <h3>Backend</h3>
                 <ul>
                     <li>Node.js</li>
+                    <li>Supabase</li>
+                    <li>Firebase</li>
                 </ul>
             </div>
             <div class="right-column">
