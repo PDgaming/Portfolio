@@ -12,6 +12,7 @@
     import nodeImg from "../lib/imgs/node.png";
     import supabaseImg from "../lib/imgs/supabase.png";
     import svelteImg from "../lib/imgs/svelte.png";
+    import gradeAppImg from "../lib/imgs/bento-1.png";
     import resume from "./Resume.pdf";
 </script>
 
@@ -49,8 +50,8 @@
                 </h1>
                 <p>
                     Developer from Assam who creates educational content on
-                    YouTube to teach others about HTML, CSS and Javascript and
-                    much more.
+                    YouTube to teach others about HTML, CSS, Javascript and much
+                    more.
                 </p>
                 <div class="call-to-action">
                     <a href={resume} class="button black"> View Resume </a>
@@ -129,9 +130,13 @@
             <div class="right-column">
                 <h3>A bit about me</h3>
                 <p>
-                    Hi I'm Produnya Dehingia, a and developer who creates
-                    educational content on YouTube to teach others about HTML,
-                    CSS and JavaScript and much more.
+                    Hi I'm Produnya Dehingia, a and developer from Assam who
+                    creates educational content on YouTube to teach others about
+                    HTML, CSS, JavaScript and much more.
+                </p>
+                <p>
+                    I don't have much profesional work experience, but I hope to
+                    learn more about a professional workplace.
                 </p>
             </div>
         </div>
@@ -165,9 +170,10 @@
             Completed Projects
         </h2>
         <div class="bento-grid">
-            <!-- <a href="/" class="bento-item">
-                <img src="./imgs/bento-1.jpg" alt="BGCCI" width="100%" />
+            <a href="/" class="bento-item">
+                <img src={gradeAppImg} alt="BGCCI" width="100%" />
             </a>
+            <!-- 
             <a href="/" class="bento-item">
                 <img src="./imgs/bento-2.jpg" alt="Churhview" width="100%" />
             </a>
