@@ -6,11 +6,12 @@
     import linkedinImg from "../lib/imgs/linkedin.png";
     import pythonImg from "../lib/imgs/python.png";
     import vscodeImg from "../lib/imgs/vscode.png";
+    import logo from "../lib/imgs/logo.jpg";
 </script>
 
 <header>
     <a href="/" class="logo-holder">
-        <div class="logo">L</div>
+        <div class="logo"><img src={logo} alt="Logo" width="70px" /></div>
         <div class="logo-text">Portfolio Website</div>
     </a>
     <nav>
