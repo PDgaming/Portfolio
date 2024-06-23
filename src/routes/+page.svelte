@@ -6,7 +6,7 @@
     import linkedinImg from "../lib/imgs/linkedin.png";
     import pythonImg from "../lib/imgs/python.png";
     import vscodeImg from "../lib/imgs/vscode.png";
-    import logo from "../lib/imgs/logo.jpg";
+    import logo from "../lib/imgs/logo.png";
 </script>
 
 <header>
