@@ -1,5 +1,11 @@
 <script>
-    import "../../static/imgs/css.png";
+    import cssImg from "../lib/imgs/css.png";
+    import githubImg from "../lib/imgs/github.png";
+    import htmlImg from "../lib/imgs/html.png";
+    import javascriptImg from "../lib/imgs/javascript.png";
+    import linkedinImg from "../lib/imgs/linkedin.png";
+    import pythonImg from "../lib/imgs/python.png";
+    import vscodeImg from "../lib/imgs/vscode.png";
 </script>
 
 <header>
@@ -40,9 +46,7 @@
                     much more.
                 </p>
                 <div class="call-to-action">
-                    <a href="./Resume.pdf" class="button black">
-                        View Resume
-                    </a>
+                    <a href="/" class="button black"> View Resume </a>
                     <a
                         href="mailto:produnyadehingia@gmail.com"
                         class="button white"
@@ -52,35 +56,26 @@
                 </div>
                 <div class="social-links">
                     <a href="https://github.com/PDgaming">
-                        <img src="./imgs/github.png" alt="GitHub" width="48" />
+                        <img src={githubImg} alt="GitHub" width="48" />
                     </a>
                     <a href="/">
-                        <img
-                            src="./imgs/linkedin.png"
-                            alt="LinkedIn"
-                            width="48"
-                        />
+                        <img src={linkedinImg} alt="LinkedIn" width="48" />
                     </a>
                 </div>
             </div>
         </div>
         <div class="hero-yellow">
-            <img src="./imgs/" alt="Produnya Dehingia" width="100%" />
+            <img src="/" alt="Produnya Dehingia" width="100%" />
         </div>
     </section>
     <section class="logos container">
         <div class="marquee">
             <div class="track">
-                <img src="./imgs/html.png" alt="HTML" width="128" />
-                <img src="./imgs/css.png" alt="CSS" width="128" />
-                <img src="./imgs/javascript.png" alt="JS" width="128" />
-                <img src="./imgs/vscode.png" width="128" alt="VS Code" />
-                <img src="./imgs/python.png" width="128" alt="Python" />
-                <img src="./imgs/html.png" alt="HTML" width="128" />
-                <img src="./imgs/css.png" alt="CSS" width="128" />
-                <img src="./imgs/javascript.png" alt="JS" width="128" />
-                <img src="./imgs/vscode.png" width="128" alt="VS Code" />
-                <img src="./imgs/python.png" width="128" alt="Python" />
+                <img src={htmlImg} alt="HTML" width="128" />
+                <img src={cssImg} alt="CSS" width="128" />
+                <img src={javascriptImg} alt="JS" width="128" />
+                <img src={vscodeImg} width="128" alt="VS Code" />
+                <img src={pythonImg} width="128" alt="Python" />
             </div>
         </div>
     </section>
