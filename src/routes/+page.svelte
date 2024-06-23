@@ -7,6 +7,7 @@
     import pythonImg from "../lib/imgs/python.png";
     import vscodeImg from "../lib/imgs/vscode.png";
     import logo from "../lib/imgs/logo.png";
+    import resume from "./Resume.pdf";
 </script>
 
 <header>
@@ -47,7 +48,7 @@
                     much more.
                 </p>
                 <div class="call-to-action">
-                    <a href="/" class="button black"> View Resume </a>
+                    <a href={resume} class="button black"> View Resume </a>
                     <a
                         href="mailto:produnyadehingia@gmail.com"
                         class="button white"
@@ -72,6 +73,11 @@
     <section class="logos container">
         <div class="marquee">
             <div class="track">
+                <img src={htmlImg} alt="HTML" width="128" />
+                <img src={cssImg} alt="CSS" width="128" />
+                <img src={javascriptImg} alt="JS" width="128" />
+                <img src={vscodeImg} width="128" alt="VS Code" />
+                <img src={pythonImg} width="128" alt="Python" />
                 <img src={htmlImg} alt="HTML" width="128" />
                 <img src={cssImg} alt="CSS" width="128" />
                 <img src={javascriptImg} alt="JS" width="128" />
