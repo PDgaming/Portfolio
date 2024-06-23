@@ -22,7 +22,7 @@
                 <a href="#projects">Projects</a>
             </li>
             <li>
-                <a href="mailto:hello@adriantwarog.com" class="button"
+                <a href="mailto:produnyadehingia@gmail.com" class="button"
                     >Contact Me</a
                 >
             </li>
@@ -53,29 +53,26 @@
             <div>
                 <h1>
                     <small>Hi I'm</small>
-                    Adrian Twarog
+                    Produnya Dehingia
                 </h1>
                 <p>
-                    Design and Developer in Australia who creates educational
-                    ontent on YouTube to teach others about HTML, CSS and
-                    Javascript. <span
-                        >I'm interested in AI topics which is why I also add
-                        things like ChatGPT into my projects these days.</span
-                    >
+                    Developer from Assam who creates educational content on
+                    YouTube to teach others about HTML, CSS and Javascript and
+                    much more.
                 </p>
                 <div class="call-to-action">
                     <a href="./Sample_Resume_Template.pdf" class="button black">
                         View Resume
                     </a>
                     <a
-                        href="mailto:hello@adriantwarog.com"
+                        href="mailto:produnyadehingia@gmail.com"
                         class="button white"
                     >
                         Contact Me
                     </a>
                 </div>
                 <div class="social-links">
-                    <a href="/">
+                    <a href="https://github.com/PDgaming">
                         <img src="./imgs/github.png" alt="GitHub" width="48" />
                     </a>
                     <a href="/">
@@ -98,19 +95,11 @@
                 <img src="./imgs/html.png" alt="HTML" width="128" />
                 <img src="./imgs/css.png" alt="CSS" width="128" />
                 <img src="./imgs/javascript.png" alt="JS" width="128" />
-                <img src="./imgs/sass.png" width="128" alt="Sass" />
-                <img src="./imgs/react.png" width="128" alt="React" />
-                <img src="./imgs/nextjs.png" width="128" alt="Next JS" />
-                <img src="./imgs/azure.png" width="128" alt="Azure" />
                 <img src="./imgs/vscode.png" width="128" alt="VS Code" />
                 <img src="./imgs/python.png" width="128" alt="Python" />
                 <img src="./imgs/html.png" alt="HTML" width="128" />
                 <img src="./imgs/css.png" alt="CSS" width="128" />
                 <img src="./imgs/javascript.png" alt="JS" width="128" />
-                <img src="./imgs/sass.png" width="128" alt="Sass" />
-                <img src="./imgs/react.png" width="128" alt="React" />
-                <img src="./imgs/nextjs.png" width="128" alt="Next JS" />
-                <img src="./imgs/azure.png" width="128" alt="Azure" />
                 <img src="./imgs/vscode.png" width="128" alt="VS Code" />
                 <img src="./imgs/python.png" width="128" alt="Python" />
             </div>
@@ -128,34 +117,19 @@
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Angular</li>
-                    <li>Vue</li>
+                    <li>Svelte</li>
                 </ul>
                 <h3>Backend</h3>
                 <ul>
                     <li>Node.js</li>
-                    <li>Express</li>
-                    <li>Python</li>
-                    <li>Java</li>
-                    <li>PHP</li>
-                    <li>Ruby</li>
                 </ul>
             </div>
             <div class="right-column">
                 <h3>A bit about me</h3>
                 <p>
-                    Hi I'm Adrian Twarog, a designer and developer who creates
+                    Hi I'm Produnya Dehingia, a and developer who creates
                     educational content on YouTube to teach others about HTML,
-                    CSS and JavaScript. I'm interested in AI topics which is why
-                    I also add things like ChatGPT into my projects these days!
-                </p>
-                <p>
-                    I'm currently working on a project that uses Azure AI to
-                    create a chatbot that can help answer questions about web
-                    development. I'm also working on a project that uses React
-                    and Next.js to create a portfolio website design that looks
-                    good.
+                    CSS and JavaScript and much more.
                 </p>
             </div>
         </div>
@@ -167,7 +141,7 @@
         </h2>
         <div class="jobs">
             <article>
-                <figure>
+                <!-- <figure>
                     <figcaption>Workplace - 1 YouTube Creator</figcaption>
                     <div>
                         <img
@@ -176,49 +150,10 @@
                             width="100%"
                         />
                     </div>
-                </figure>
-                <h3>YouTube Content Creator</h3>
-                <div>2020-current</div>
-                <p>
-                    Content creation online teaching people about how to code
-                    using HTML, CSS, JS.
-                </p>
-            </article>
-            <article>
-                <figure>
-                    <figcaption>Workplace - Moshi Moshi Marketing</figcaption>
-                    <div>
-                        <img
-                            src="./imgs/workplace-2.jpg"
-                            alt="Workplace 2 - Moshi Moshi Marketing"
-                            width="100%"
-                        />
-                    </div>
-                </figure>
-                <h3>Moshi Moshi Marketing</h3>
-                <div>20018-2020</div>
-                <p>
-                    Marketing agency building websites and programming them from
-                    the ground up.
-                </p>
-            </article>
-            <article>
-                <figure>
-                    <figcaption>Workplace - Chamber of Commerce</figcaption>
-                    <div>
-                        <img
-                            src="./imgs/workplace-3.jpg"
-                            alt="Workplace 3 - Chamber of Commerce"
-                            width="100%"
-                        />
-                    </div>
-                </figure>
-                <h3>Chamber of Commerce</h3>
-                <div>2013-2018</div>
-                <p>
-                    A small to large business organisation that helps facilitate
-                    advice and support.
-                </p>
+                </figure> -->
+                <h3>I don't have a job yet</h3>
+                <div>But you can help me get one!!</div>
+                <p></p>
             </article>
         </div>
     </section>
@@ -275,9 +210,9 @@
     a {
         text-decoration: none;
         color: var(--blue);
-        &:hover {
-            text-decoration: underline;
-        }
+    }
+    a:hover {
+        text-decoration: underline;
     }
     header {
         padding-top: 10px;
@@ -295,7 +230,6 @@
         font-weight: 600;
         color: var(--base-800);
     }
-
     .logo-holder .logo {
         display: flex;
         align-items: center;
@@ -327,11 +261,11 @@
         display: inline-block;
         padding: 10px 20px;
         color: var(--base);
-        &:hover {
-            background-color: var(--base-100);
-            border-radius: 10px;
-            text-decoration: none;
-        }
+    }
+    li a:hover {
+        background-color: var(--base-100);
+        border-radius: 10px;
+        text-decoration: none;
     }
     .mobile-toggle {
         display: none;
@@ -368,9 +302,9 @@
         ul a {
             width: 100%;
         }
-        /* ul &.active {
+        ul.active {
             display: flex;
-        } */
+        }
     }
     section {
         max-width: 1440px;
@@ -390,26 +324,26 @@
         color: var(--base-100);
         border-radius: 10px;
         transition: ease 0.3s all;
-        &:hover {
-            text-decoration: none;
-            background-color: var(--base-800);
-        }
-        &.white {
-            background-color: white;
-            color: var(--base-800);
-            &:hover {
-                background-color: var(--base-100);
-                color: var(--base);
-            }
-        }
-        &.black {
-            background-color: black;
-            color: white;
-            &:hover {
-                background-color: var(--base);
-                color: var(--base-100);
-            }
-        }
+    }
+    .button:hover {
+        text-decoration: none;
+        background-color: var(--base-800);
+    }
+    .button.white {
+        background-color: white;
+        color: var(--base-800);
+    }
+    .button.white:hover {
+        background-color: var(--base-100);
+        color: var(--base);
+    }
+    .button.black {
+        background-color: black;
+        color: white;
+    }
+    .button.black:hover {
+        background-color: var(--base);
+        color: var(--base-100);
     }
     h1 {
         font-size: 64px;
@@ -442,11 +376,6 @@
         flex-direction: column;
         justify-content: center;
     }
-    .hero-blue span {
-        @media (max-width: 768px) {
-            display: none;
-        }
-    }
     .call-to-action {
         margin-top: 20px;
         margin-bottom: 10px;
@@ -455,10 +384,8 @@
         margin-right: 10px;
         margin-bottom: 10px;
     }
-    .social-links a {
-        &:hover {
-            text-decoration: none;
-        }
+    .social-links a:hover {
+        text-decoration: none;
     }
 
     .hero-yellow {
