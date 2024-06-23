@@ -1,5 +1,5 @@
 <script>
-    import "../../static/imgs/azure.png";
+    import "../../static/imgs/css.png";
     function toggleMobileMenu() {
         document.getElementById("menu").classList.toggle("active");
     }
@@ -86,7 +86,7 @@
             </div>
         </div>
         <div class="hero-yellow">
-            <img src="./imgs/hero-image.png" alt="Adrian Twarog" width="100%" />
+            <img src="./imgs/" alt="Produnya Dehingia" width="100%" />
         </div>
     </section>
     <section class="logos container">
@@ -163,7 +163,7 @@
             Completed Projects
         </h2>
         <div class="bento-grid">
-            <a href="/" class="bento-item">
+            <!-- <a href="/" class="bento-item">
                 <img src="./imgs/bento-1.jpg" alt="BGCCI" width="100%" />
             </a>
             <a href="/" class="bento-item">
@@ -180,7 +180,7 @@
             </a>
             <a href="/" class="bento-item">
                 <img src="./imgs/bento-7.jpg" alt="School" width="100%" />
-            </a>
+            </a> -->
         </div>
     </section>
 </main>
