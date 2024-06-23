@@ -76,6 +76,11 @@
                 <img src={javascriptImg} alt="JS" width="128" />
                 <img src={vscodeImg} width="128" alt="VS Code" />
                 <img src={pythonImg} width="128" alt="Python" />
+                <img src={htmlImg} alt="HTML" width="128" />
+                <img src={cssImg} alt="CSS" width="128" />
+                <img src={javascriptImg} alt="JS" width="128" />
+                <img src={vscodeImg} width="128" alt="VS Code" />
+                <img src={pythonImg} width="128" alt="Python" />
             </div>
         </div>
     </section>
