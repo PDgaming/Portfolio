@@ -24,16 +24,16 @@
     </a>
     <nav>
         <ul id="menu">
-            <li>
+            <li style="background-color: white;">
                 <a href="/">Home</a>
             </li>
-            <li>
+            <li style="background-color: white;">
                 <a href="#skills">Skills</a>
             </li>
-            <li>
+            <li style="background-color: white;">
                 <a href="#projects">Projects</a>
             </li>
-            <li>
+            <li style="background-color: white;">
                 <a href="mailto:produnyadehingia@gmail.com" class="button"
                     >Contact Me</a
                 >
@@ -280,17 +280,6 @@
         border-radius: 10px;
         text-decoration: none;
     }
-    /* .mobile-toggle {
-        display: none;
-        color: var(--base-800);
-        padding: 10px;
-        @media (max-width: 768px) {
-            display: inline-block;
-            position: absolute;
-            top: 20px;
-            right: 20px;
-        }
-    } */
     @media (max-width: 1024px) {
         nav {
             flex-direction: column;
