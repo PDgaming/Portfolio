@@ -389,7 +389,6 @@
     .social-links a:hover {
         text-decoration: none;
     }
-
     .hero-yellow {
         flex: 1;
         background-color: var(--yellow);
@@ -492,7 +491,6 @@
     .right-column p {
         margin-bottom: 20px;
     }
-
     .work-experience .jobs {
         display: flex;
         gap: 30px;
@@ -590,13 +588,11 @@
     .bento-item:hover img {
         transform: scale(1.2);
     }
-
     @media (max-width: 768px) {
         .bento-item {
             height: 240px;
         }
     }
-
     .bento-item:nth-child(1) {
         grid-column: span 2;
         grid-row: span 2;
@@ -605,7 +601,6 @@
             grid-row: span 2;
         }
     }
-
     .bento-item:nth-child(2) {
         grid-column: span 2;
         grid-row: span 1;
@@ -622,7 +617,6 @@
             grid-row: span 2;
         }
     }
-
     .bento-item:nth-child(4) {
         grid-column: span 1;
         grid-row: span 1;
