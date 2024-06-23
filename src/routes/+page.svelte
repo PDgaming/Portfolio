@@ -247,7 +247,7 @@
         border-radius: 10px;
         text-decoration: none;
     }
-    .mobile-toggle {
+    /* .mobile-toggle {
         display: none;
         color: var(--base-800);
         padding: 10px;
@@ -257,7 +257,7 @@
             top: 20px;
             right: 20px;
         }
-    }
+    } */
     @media (max-width: 1024px) {
         nav {
             flex-direction: column;
@@ -496,6 +496,7 @@
     article p {
         margin-bottom: 10px;
     }
+    /*
     article figure {
         width: 100%;
         padding-top: 56.25%;
@@ -621,5 +622,6 @@
             grid-column: span 5;
             grid-row: span 2;
         }
-    }
+    } 
+     */
 </style>
