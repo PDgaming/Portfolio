@@ -13,6 +13,7 @@
     import supabaseImg from "../lib/imgs/supabase.png";
     import svelteImg from "../lib/imgs/svelte.png";
     import gradeAppImg from "../lib/imgs/bento-1.png";
+    import crackedEggsImg from "../lib/imgs/bento-2.png";
     import resume from "./Resume.pdf";
 </script>
 
@@ -171,24 +172,28 @@
         </h2>
         <div class="bento-grid">
             <a href="/" class="bento-item">
-                <img src={gradeAppImg} alt="BGCCI" width="100%" />
+                <img src={gradeAppImg} alt="Grade App" width="100%" />
             </a>
-            <!-- 
+
             <a href="/" class="bento-item">
-                <img src="./imgs/bento-2.jpg" alt="Churhview" width="100%" />
-            </a>
-            <a href="/" class="bento-item">
-                <img src="./imgs/bento-3.jpg" alt="Harley" width="100%" />
-            </a>
-            <a href="/" class="bento-item">
-                <img src="./imgs/bento-5.jpg" alt="Bunbury" width="100%" />
+                <img
+                    src={crackedEggsImg}
+                    alt="Cracked Eggs Minecraft Server"
+                    width="100%"
+                />
             </a>
             <a href="/" class="bento-item">
-                <img src="./imgs/bento-6.jpg" alt="Running" width="100%" />
+                <img src="" alt="" width="100%" />
             </a>
             <a href="/" class="bento-item">
-                <img src="./imgs/bento-7.jpg" alt="School" width="100%" />
-            </a> -->
+                <img src="." alt="" width="100%" />
+            </a>
+            <a href="/" class="bento-item">
+                <img src="" alt="" width="100%" />
+            </a>
+            <a href="/" class="bento-item">
+                <img src="" alt="" width="100%" />
+            </a>
         </div>
     </section>
 </main>
@@ -561,7 +566,7 @@
     figure:hover img {
         transform: scale(1.2);
     }
-
+*/
     .bento .bento-grid {
         display: grid;
         grid-gap: 30px;
@@ -602,6 +607,7 @@
             height: 240px;
         }
     }
+
     .bento-item:nth-child(1) {
         grid-column: span 2;
         grid-row: span 2;
@@ -610,6 +616,7 @@
             grid-row: span 2;
         }
     }
+
     .bento-item:nth-child(2) {
         grid-column: span 2;
         grid-row: span 1;
@@ -650,6 +657,5 @@
             grid-column: span 5;
             grid-row: span 2;
         }
-    } 
-     */
+    }
 </style>
